@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mypage {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 350px;
+    position: relative;
+    top: 150px;
+}
+
+.images {
+    width: 70%;
+    margin-left: -10px;
+    position: relative;
+    top: 50px;
+}
+
+.mypage-3 h2 {
+    position: relative;
+    bottom: -60px;
+    margin-left: 40px;
+}
+
+.mypage-3 {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mypage-2 {
+    background-color: #7178e3;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.class1 {
+    color: #fff;
+    position: relative;
+    top: 30px;
+    margin-left: -10px;
+    font-size: 29px;
+}
+
+.class2 {
+    color: #fff;
+    position: relative;
+    top: -10px;
+    margin-left: -10px;
+    font-size: 18px;
+}
+
+.email {
+    position: relative;
+    top: 60px;
+    margin-right: 290px;
+}
+
+.phone {
+    position: relative;
+    top: -5px;
+    margin-right: -200px;
+}
+
+.mail {
+    position: relative;
+    bottom: 52px;
+    margin-left: -200px;
+    font-size: 18px;
+}
+
+.number {
+    position: relative;
+    bottom: 108px;
+    margin-left: 270px;
+    font-size: 18px;
+}
+
+.webicon {
+    font-size: 1px;
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+}
+
+.webicon ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+}
+
+.webicon ul li {
+    float: left;
+    margin: 25px 25px;
+    padding: 5px 5px;
+    height: 3rem;
+    width: 3rem;
+    background-color: #03b3f9;
+    border-radius: 10%;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.webicon ul li a {
+    font-size: 2.7rem;
+    color: #fff;
+    opacity: 1;
+}
